@@ -365,6 +365,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 fieldset {
   padding: 0;
@@ -984,6 +985,13 @@ textarea.w-select {
 .w-background-video > video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
+}
+.w-background-video--control {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  background-color: transparent;
+  padding: 0;
 }
 .w-slider {
   position: relative;
@@ -1784,6 +1792,12 @@ textarea.w-select {
 .w-dyn-bind-empty,
 .w-dyn-hide {
   display: none !important;
+}
+.wf-layout-layout {
+  display: grid !important;
+}
+.wf-layout-cell {
+  display: flex !important;
 }
 .w-layout-grid {
   display: -ms-grid;
